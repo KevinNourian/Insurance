@@ -23,8 +23,11 @@ The goal of this project is to create a model with an accuracy score of 75% or h
 # Conclusions
 **The Analysis of the Data:** I reviewed nearly 2000 data points related to customers of a travel insurance business. <br>
 **The Goal of the Project:** The goal of this project was to find a model that could predict if a new customer would buy travel insurance with a high level of accuracy (75% or higher).<br>
-**Models:** I utilized several models with varying results.<br>
-**Performance of Models:** Some of the models exceeded the 75% accuracy standard. K Nearest (using the default hyperparameters) was able to get better or similar results than any other model, including the more complex ones.<br>  
+**Models:** I utilized several models with varying results. Many of the models exceeded the 75% accuracy standard. <br>
 **Feature Engineering and Hyperparameter Testing:** I tried feature engineering and hyperparameter testing with techniques such as Backward Elimination, SHAP and OPTUNA. OPTUNA showed the best results.<br>
 **Stochastic System:** Human behavior is hard to classify and cannot be easily capsulized and predicted. For this reason, obtaining a very high accuracy score (over 80%) may be very difficult to do.<br>
-**Business Recommendation:** With accuracy scores of over 80% using some of the models, I recommend utilizing a simple KNN machine learning model to predict if a future customer will purchase travel insurance.<br>
+**K Nearest Neighbor:** For a simple model and using only default hyperparameters, K Nearest was able to get better or similar results than any other model, including the more complex ones.<br>  
+**Business Recommendation:** With accuracy scores of over 80%, I recommend utilizing a simple KNN machine learning model to predict if a future customer will purchase travel insurance.<br> 
+
+# Image Credit
+Image by MYTZ from Pixabay
